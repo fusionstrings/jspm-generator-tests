@@ -37,3 +37,7 @@ Here `@jspm/generator` is not one of the dependencies
 ```sh
 chomp build:success:html
 ```
+
+What's interesting though is that  Github action seems to pass
+
+https://github.com/fusionstrings/jspm-generator-tests/actions
