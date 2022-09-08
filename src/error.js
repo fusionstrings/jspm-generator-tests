@@ -1,5 +1,5 @@
-import { Generator } from '@jspm/generator';
-
+import { Generator, clearCache } from '@jspm/generator';
+clearCache();
 const generator = new Generator({
   env: ['production', 'browser', 'module'],
 });

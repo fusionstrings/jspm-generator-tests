@@ -7,13 +7,14 @@
     "./success": "./src/success.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bust-cache": "node ./src/error.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@jspm/generator": "^1.0.0-beta.33",
+    "@jspm/generator": "^1.0.0-beta.37",
     "mkdirp": "^1.0.4"
-  }
+  },
+  "type": "module"
 }
